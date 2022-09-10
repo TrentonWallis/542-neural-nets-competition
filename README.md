@@ -15,11 +15,11 @@ The objective of the project was to create a data filtering process and machine 
 ### Motivation
 Our professor, Dr. Lobaton, is doing exciting research in his lab into advancements robotic prothetic limbs, and one specific area is looking in to is the ways that the movement of these limbs need to change depending on the gait and terrain a patient is walking over. If a machine learning model could be deployed along with an IMU on a prosthetic limb, it could accurately predict the terrain and gait of the patient and adjust the movements of the prosthetic limb to make usage safer and smoother for the patient.
 
-### Data 
+### [Data](./Data) 
 We were given real-world data recorded by Dr. Lobaton in his lab that contained the sensor measurements from tests in his lab. We were given data from 28 different session of around 20 minutes in length taken from eight different patients. This data was sampled at 40 Hz, which meant there were 2,400 samples per minute during the sessions. The data inputs were:
 - Gyroscope X, Y, and Z axes
 - Accelerometer X, Y, and Z axes
-They were delivered to us in spreadsheets 
+They were delivered to us in two csv files per session: one for the measurements and another for the timestamps corresponding to when those 
 
 
 ### Grading Process
